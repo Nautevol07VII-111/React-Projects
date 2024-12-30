@@ -1,8 +1,8 @@
-export default function TodoInput() {
+export default function TodoInput({App}) {
+  const TodoInput = () => {
+    return <input placeholder="Enter a task"/>;
+};
 
-    return (
-        <div>
-            TodoInput
-        </div>
-    )
 }
+
+export default TodoInput;
